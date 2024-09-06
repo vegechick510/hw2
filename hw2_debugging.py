@@ -2,7 +2,8 @@ import rand
 
 
 def mergeSort(arr):
-    if (len(arr) == 1):
+
+    if len(arr) == 1:
         return arr
 
     half = len(arr)//2
@@ -31,7 +32,7 @@ def recombine(leftArr, rightArr):
     return mergeArr
 
 
-arr = rand.random_array([None] * 20)
-arr_out = mergeSort(arr)
+arr1 = rand.random_array([None] * 20)
+arr_out = mergeSort(arr1)
 
 print(arr_out)
