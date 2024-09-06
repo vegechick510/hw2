@@ -1,5 +1,6 @@
-name: static analysis
+name: Pytest
 
+# Trigger the workflow on push or pull request to the main branch
 on:
   push:
     branches:
@@ -8,5 +9,23 @@ on:
     branches:
       - main
 
-job:
-  pytest:
+jobs:
+  test:
+    runs-on: ubuntu-latest  # Specify the environment (Ubuntu in this case)
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2  # Check out the code from the repository
+
+      - name: Set up Python
+        uses: actions/setup-python@v2  # Set up the desired Python version
+        with:
+          python-version: '3.12'  # Specify the Python version (e.g., 3.8 or latest 3.x)
+
+      - name: Install dependencies
+        run: |
+          pip install pytest 
+
+      - name: Run Pytest
+        run: |
+          pytest tests.py --doctest-modules --junitxml=junit/test-results.xml --cov=com --cov-report=xml --cov-report=html

@@ -8,4 +8,4 @@
 ![Pyright](https://github.com/vegechick510/hw2/actions/workflows/pylint.yml/badge.svg?branch=main&event=push&job=Pyright)
 ![Pylint](https://github.com/vegechick510/hw2/actions/workflows/pyright.yml/badge.svg?branch=main&event=push&job=Pylint)
 
-
+![Pytest](https://github.com/vegechick510/hw2/actions/workflows/pytest.yml/badge.svg?branch=main&event=push&job=Pytest)
