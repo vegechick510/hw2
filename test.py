@@ -6,4 +6,4 @@ arr_1_sorted = [-3,0,1,1,2,3,4,4,5]
 
 merge_out_1 = merge_sort(arr_1)
 
-assert arr1 == arr_1_sorted
+assert merge_out_1 == arr_1_sorted
