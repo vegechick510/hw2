@@ -1,4 +1,4 @@
-from hw2_debugging.py import merge_sort
+from hw2_debugging import merge_sort
 
 arr_1 = [4,-3,2,5,4,0,1,1,3]
 
