@@ -17,17 +17,19 @@ def recombine(leftArr, rightArr):
     mergeArr = [None] * (len(leftArr) + len(rightArr))
     while leftIndex < len(leftArr) and rightIndex < len(rightArr):
         if leftArr[leftIndex] < rightArr[rightIndex]:
-            rightIndex += 1
+            # print(leftIndex,rightIndex)
             mergeArr[leftIndex + rightIndex] = leftArr[leftIndex]
-        else:
             leftIndex += 1
+        else:
+            # print(leftIndex,rightIndex)
             mergeArr[leftIndex + rightIndex] = rightArr[rightIndex]
+            rightIndex += 1
 
     for i in range(rightIndex, len(rightArr)):
-        mergeArr[leftIndex + rightIndex] = rightArr[i]
+        mergeArr[leftIndex + i] = rightArr[i]
 
     for i in range(leftIndex, len(leftArr)):
-        mergeArr[leftIndex + rightIndex] = leftArr[i]
+        mergeArr[rightIndex + i] = leftArr[i]
 
     return mergeArr
 
