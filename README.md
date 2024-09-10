@@ -4,8 +4,8 @@
 ![Static Badge](https://img.shields.io/badge/platform-linux-green)
 
 
-![Autopep8](https://github.com/vegechick510/hw2/actions/workflows/autopep8.yml/badge.svg)
-![Pyright](https://github.com/vegechick510/hw2/actions/workflows/pylint.yml/badge.svg)
-![Pylint](https://github.com/vegechick510/hw2/actions/workflows/pyright.yml/badge.svg)
+[![Autopep8](https://github.com/vegechick510/hw2/actions/workflows/autopep8.yml/badge.svg)](https://github.com/vegechick510/hw2/actions/workflows/autopep8.yml)
+[![Pyright](https://github.com/vegechick510/hw2/actions/workflows/pylint.yml/badge.svg)](https://github.com/vegechick510/hw2/actions/workflows/pylint.yml)
+[![Pylint](https://github.com/vegechick510/hw2/actions/workflows/pyright.yml/badge.svg)](https://github.com/vegechick510/hw2/actions/workflows/pyright.yml)
 
-![Pytest](https://github.com/vegechick510/hw2/actions/workflows/pytest.yml/badge.svg)
+[![Pytest](https://github.com/vegechick510/hw2/actions/workflows/pytest.yml/badge.svg)](https://github.com/vegechick510/hw2/actions/workflows/pytest.yml)
