@@ -8,3 +8,4 @@
 [![Pyright](https://github.com/vegechick510/hw2/actions/workflows/pylint.yml/badge.svg)](https://github.com/vegechick510/hw2/actions/workflows/pylint.yml)
 [![Pylint](https://github.com/vegechick510/hw2/actions/workflows/pyright.yml/badge.svg)](https://github.com/vegechick510/hw2/actions/workflows/pyright.yml)
 
+[![codecov](https://codecov.io/github/vegechick510/hw2/graph/badge.svg?token=4EQA2YJBNM)](https://codecov.io/github/vegechick510/hw2)
