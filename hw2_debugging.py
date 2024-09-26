@@ -1,3 +1,6 @@
+"""
+Module for hw2_debugging.
+"""
 import rand
 
 
