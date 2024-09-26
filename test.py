@@ -40,6 +40,7 @@ def test_case_3():
     if arr_out != arr_sorted:
         raise TestError("Test case 3 failed")
 
+
 test_case_1()
 test_case_2()
 test_case_3()
