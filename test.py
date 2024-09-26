@@ -24,7 +24,7 @@ def test_case_2():
     test case 2
     """
     arr_in = [0, 0, 0, 0, 1, 0, 0, 0, 0]
-    arr_sorted = [0, 0, 0, 0, 0, 0, 0, 0, 2]
+    arr_sorted = [0, 0, 0, 0, 0, 0, 0, 0, 1]
     arr_out = merge_sort(arr_in)
     if arr_out != arr_sorted:
         raise TestError("Test case 2 failed")
